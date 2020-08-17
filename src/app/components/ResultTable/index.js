@@ -7,7 +7,6 @@ import {useOrientation} from '../../hooks/useOrientation';
 import LamfoContext from '@context/LamfoContext';
 
 import styles from './styles';
-import escudo from '@assets/img/lamfo_s.png';
 
 const LAMFOURL = "http://www.lamfo.club/";
 

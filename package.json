@@ -1,13 +1,14 @@
 {
   "name": "AppLamfo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "android:buildApk": "cd android && ./gradlew clean && ./gradlew assembleRelease",
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
