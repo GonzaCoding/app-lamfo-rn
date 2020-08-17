@@ -6,7 +6,7 @@ import {SafeAreaView, ScrollView, View, Image} from 'react-native';
 import {useOrientation} from '../../hooks/useOrientation';
 
 import styles from './styles';
-import logo from '@assets/img/lamfo_l.png';
+import logo from '@assets/img/lamfo_l.jpg';
 
 import LamfoContext from '@context/LamfoContext';
 
